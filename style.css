@@ -1,0 +1,99 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: poppins;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 61.5%;
+  min-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+.container h1 {
+  color: rgba(0,221,0,255);
+  text-align: center;
+  font-size: 200%;
+  margin: 8px;
+}
+
+.containercontent {
+  margin: 30px;
+  padding: 30px;
+}
+
+.buttoncontainer {
+  background-color: rgba(0, 221, 0, 1);
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  font-family: poppins;
+  text-align: center;
+
+}
+
+.buttoncontainer button {
+  cursor: pointer;
+}
+
+.header-logo {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      height: auto;
+      background-size: contain;
+}
+
+main {
+    margin-top: 30px;
+    color: white;
+}
+
+main h2 {
+      display: inline-block;
+      margin: 0;
+}
+
+.charge {
+    padding: 14px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+main > div {
+  margin-bottom: 11px;
+}
+
+
+
+  /* First charge div */
+main > div:nth-child(1) .charge {
+      background-color: rgba(245,180,83,255);
+      width: 30%;
+}
+
+  /* Second charge div */
+main > div:nth-child(2) .charge {
+      background-color: rgba(30,195,30,255);
+      width: 60%;
+}
+
+  /* Third charge div */
+main > div:nth-child(3) .charge {
+      background-color: rgba(190,65,65,255);
+      width: 15%;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0
+}
